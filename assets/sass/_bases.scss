@@ -1,0 +1,57 @@
+*{
+	font-family: $montserrat;
+}
+header{
+	margin-top: 40px;
+	img{
+		margin-left: 140px;
+		width: 100%;
+	}
+	i{
+		margin-top:20px;
+	}
+}
+nav{
+	.nav{
+		margin-left: 420px;
+		a{
+			color: $color-gris-t;
+		}
+	}
+}
+
+.uno{
+	@include blue-line();
+	h6{
+		font-weight: normal;
+	}
+	.anotherfont{
+		font-family: $profile;
+	}
+}
+.dos{
+	@include blue-line();
+	h6{
+		font-family: $profile;
+		font-size: 15px;
+	}
+	.more{
+		color: $color-azul;
+	}
+	.gris-box{
+		margin-top: 40px;
+		padding: 20px;
+		background-color: #f0edfe;
+		height: 90px;
+	}
+}
+.tres{
+	@include blue-line();
+	h6{
+		margin-top: 30px;
+		font-family: $profile;
+	}
+	.imgs{
+		margin-bottom: 40px;
+	}
+}
