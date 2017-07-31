@@ -48,4 +48,21 @@ nav .nav {
   .tres .imgs {
     margin-bottom: 40px; }
 
+.cuatro {
+  margin-top: 40px; }
+  .cuatro li {
+    list-style: none; }
+  .cuatro a {
+    color: #414549; }
+  .cuatro .discover {
+    margin-left: 40px; }
+  .cuatro .conect {
+    margin-left: 53px; }
+
+footer {
+  margin-top: 20px;
+  border-top: 2px solid #e1e1e1; }
+  footer .cinco {
+    margin-top: 40px; }
+
 /*# sourceMappingURL=main.css.map */
